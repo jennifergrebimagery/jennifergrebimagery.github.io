@@ -1,0 +1,265 @@
+{
+	"asset": {
+		"generator": "VISUALIZEGLTF",
+		"version" : "2.0"
+	},
+	"extensionsUsed": [ "KHR_lights_punctual" ],
+	"scenes": [
+		{
+			"name": "Default",
+			"nodes": [
+				0]
+		}
+	],
+	"nodes": [
+		{
+			"children": [
+				1, 4, 5, 6, 7, 8, 9, 10
+			]
+			,"name": "Stamm"		}
+,
+		{
+			"children": [
+				2
+			]
+			,"matrix": [
+				1,					0,					0,					0,
+				0,					1,					0,					0,
+				0,					0,					1,					0,
+				0,					0.0003000035,					0,					1
+			]
+			,"name": "Trapezoidal_sheet-metal_6300-1600_VISUALIZE (Standard)"		}
+,
+		{
+			"children": [
+				3
+			]
+			,"name": "Standard"		}
+,
+		{
+			"mesh": 0
+			,"name": "color"		}
+,
+		{
+			"matrix": [
+				0.9996436,					0.004938983,					0.02624055,					0,
+				-0.0005716472,					0.9864773,					-0.1638971,					0,
+				-0.02669519,					0.1638237,					0.9861283,					0,
+				-1.546826,					7.090457,					22.893,					1
+			]
+			,"camera": 0
+			,"name": "SOLIDWORKS Viewport"		}
+,
+		{
+			"matrix": [
+				0.7071068,					0,					-0.7071068,					0,
+				-0.1622216,					0.9733286,					-0.1622216,					0,
+				0.6882472,					0.2294159,					0.6882472,					0,
+				4.445094,					1.981699,					4.445094,					1
+			]
+			,"camera": 1
+			,"name": "Default Camera"		}
+,
+		{
+			"matrix": [
+				0,					0,					-0.9999999,					0,
+				-0.7071068,					0.7071068,					0,					0,
+				0.7071068,					0.7071068,					0,					0,
+				7.071068,					7.071068,					0,					1
+			]
+			,"extensions" : {
+				"KHR_lights_punctual" : {
+					"light" : 0
+				}
+			}
+			,"name": "Gerichtet1"		}
+,
+		{
+			"matrix": [
+				-0.9019192,					0,					0.4319047,					0,
+				0.2645487,					0.790458,					0.5524403,					0,
+				-0.3414025,					0.6125164,					-0.7129292,					0,
+				-3.414026,					6.125165,					-7.12929,					1
+			]
+			,"extensions" : {
+				"KHR_lights_punctual" : {
+					"light" : 1
+				}
+			}
+			,"name": "Gerichtet2"		}
+,
+		{
+			"matrix": [
+				-0.1920117,					0,					0.9813927,					0,
+				0.3346118,					0.9400793,					0.06546756,					0,
+				-0.9225869,					0.3409561,					-0.1805062,					0,
+				-9.225868,					3.40956,					-1.805061,					1
+			]
+			,"extensions" : {
+				"KHR_lights_punctual" : {
+					"light" : 2
+				}
+			}
+			,"name": "Gerichtet3"		}
+,
+		{
+			"name": "3 Point Faded"		}
+,
+		{
+			"name": "3 Point Faded Backplate"		}
+	],
+	"cameras": [
+		{
+			"type": "perspective",
+			"perspective" : {
+				"aspectRatio": 1.25,
+				"yfov" : 0.3215369,
+				"zfar" : 100,
+				"znear" : 0.01
+			}
+		}
+,
+		{
+			"type": "perspective",
+			"perspective" : {
+				"aspectRatio": 1.777778,
+				"yfov" : 0.2617994,
+				"zfar" : 100,
+				"znear" : 0.01
+			}
+		}
+	],
+	"extensions": {
+		"KHR_lights_punctual" : {
+			"lights": [
+		{
+			"name": "Gerichtet1[1]",
+			"color": [
+					0.5773503, 0.5773503, 0.5773503
+				],
+			"intensity": 0.5773503,
+			"type": "directional"
+		}
+,
+		{
+			"name": "Gerichtet2[1]",
+			"color": [
+					0.5773503, 0.5773503, 0.5773503
+				],
+			"intensity": 0.5773503,
+			"type": "directional"
+		}
+,
+		{
+			"name": "Gerichtet3[1]",
+			"color": [
+					0.5773503, 0.5773503, 0.5773503
+				],
+			"intensity": 0.5773503,
+			"type": "directional"
+		}
+
+			]
+		}
+	},
+	"meshes" : [
+		{
+			"primitives" : [
+				{
+					"attributes" : {
+					"POSITION" : 1
+					,"NORMAL" : 2
+					,"TEXCOORD_0" : 3
+					},
+					"indices" : 0,
+					"mode": 4,
+					"material" : 0
+				}
+			]
+		}
+	],
+	"accessors" : [
+			{
+				"bufferView": 3,
+				"byteOffset" : 0,
+				"componentType" : 5125,
+				"count" : 4824,
+				"type" : "SCALAR"
+			},
+			{
+				"bufferView": 0,
+				"byteOffset" : 0,
+				"componentType" : 5126,
+				"count" : 2448,
+				"type" : "VEC3"
+								,"min": [-1.84192348,0,-1.57988131]
+								,"max": [0.0258874502,6.33981371,0.170375422]
+			},
+			{
+				"bufferView": 1,
+				"byteOffset" : 0,
+				"componentType" : 5126,
+				"count" : 2448,
+				"type" : "VEC3"
+			},
+			{
+				"bufferView": 2,
+				"byteOffset" : 0,
+				"componentType" : 5126,
+				"count" : 2448,
+				"type" : "VEC2"
+			}
+	],
+	"materials": [
+			{
+				"name": "color",
+				"emissiveFactor": [
+					0, 0, 0
+				]
+				,"pbrMetallicRoughness": {
+					"baseColorFactor": [
+						0.6031217, 0.6501244, 0.865554, 1
+					]
+					,"metallicFactor": 0.02861321
+					,"roughnessFactor": 0.01336535
+				}
+				,"alphaMode": "OPAQUE"
+				,"doubleSided": true
+			}
+	],
+	"bufferViews" : [
+			{
+				"buffer": 0
+				,"byteOffset" : 0
+				,"byteLength" : 29376
+				,"byteStride" : 12
+				,"target" : 34962
+			},
+			{
+				"buffer": 0
+				,"byteOffset" : 29376
+				,"byteLength" : 29376
+				,"byteStride" : 12
+				,"target" : 34962
+			},
+			{
+				"buffer": 0
+				,"byteOffset" : 58752
+				,"byteLength" : 19584
+				,"byteStride" : 8
+				,"target" : 34962
+			},
+			{
+				"buffer": 0
+				,"byteOffset" : 78336
+				,"byteLength" : 19296
+				,"target" : 34963
+			}
+	],
+	"buffers" : [
+			{
+				"byteLength": 97632
+				,"uri" : "20210605_Sheet-metal_column_6300-1600_0001.bin"
+			}
+	]
+}
